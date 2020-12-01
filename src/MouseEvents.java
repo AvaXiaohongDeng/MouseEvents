@@ -1,9 +1,14 @@
+/*
+swapping images with the mouseEnterd() and mouseExited()
+*/
+
 import javax.swing.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 public class MouseEvents extends JFrame implements MouseListener, MouseMotionListener {
+
     JPanel pnl = new JPanel();
     JTextArea txtArea = new JTextArea(12,48);
     int x,y;
@@ -42,7 +47,6 @@ public class MouseEvents extends JFrame implements MouseListener, MouseMotionLis
 
     @Override
     public void mouseExited(MouseEvent e) {
-
     }
 
     @Override
